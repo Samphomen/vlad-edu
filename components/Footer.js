@@ -1,4 +1,4 @@
-import "../styles/footer.css"
+import "@/styles/footer.css"
 import {FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled } from '@ant-design/icons'
 
 const Footer = () => {

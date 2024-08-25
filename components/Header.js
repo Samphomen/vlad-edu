@@ -1,6 +1,6 @@
 
 import {ArrowRightOutlined} from '@ant-design/icons'
-import "../styles/header.css"
+import "@/styles/header.css"
 import headerImage from '@/public/assets/images/header.jpg'
 
 

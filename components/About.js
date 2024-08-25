@@ -1,6 +1,6 @@
 
 import {ArrowRightOutlined} from '@ant-design/icons'
-import "../styles/about.css"
+import "@/styles/about.css"
 
 const About = () => {
   return (

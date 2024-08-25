@@ -1,7 +1,7 @@
 "use client";
 
 import React, {useState} from 'react'
-import "../styles/services.css"
+import "@/styles/services.css"
 import {UpOutlined, DownOutlined} from '@ant-design/icons'
 
 const ServicesList = ({topic, content, isLast}) => {

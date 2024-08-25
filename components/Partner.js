@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import "../styles/partner.css"
+import "@/styles/partner.css"
 import { schools } from './data'
 
 const Partner = () => {

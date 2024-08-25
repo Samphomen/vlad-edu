@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import "../styles/services.css"
+import "@/styles/services.css"
 import { serviceList } from './data';
 import ServicesList from './ServicesList';
 

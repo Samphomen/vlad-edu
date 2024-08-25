@@ -1,7 +1,7 @@
 "use client";
 
 import React, {useState, useEffect} from 'react'
-import "../styles/navbar.css"
+import "@/styles/navbar.css"
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { BarsOutlined } from '@ant-design/icons';

@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import "../styles/testimonial.css"
+import "@/styles/testimonial.css"
 import volo from '@/public/assets/images/volo.png'
 import person from '@/public/assets/images/person.png'
 
