@@ -1,0 +1,22 @@
+.blog-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.blog-header h2{
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 600;
+}
+
+.blog-header h2 span{
+    color: #ffd347;
+}
+
+.blog-header h4{
+    width: 25%;
+    font-size: 20px;
+    margin-top: auto;
+}

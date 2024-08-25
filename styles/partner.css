@@ -1,0 +1,50 @@
+.partner{
+    padding: 40px 0;
+}
+
+.p-header{
+    text-align: center;
+}
+
+.p-header h2{
+    font-size: 36px;
+}
+
+.p-header p{
+    font-size: 16px;
+    color: #667185;
+    padding: 20px 130px;
+}
+
+.p-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.ps-box{
+    /* border: 1px solid red; */
+    flex: 1 1 calc(20% - 16px); /* 4 items per row, subtracting the gap */
+    max-width: calc(20% - 16px); /* Ensures items don't exceed 25% of the row */
+    box-sizing: border-box;
+}
+
+.ps-item{
+    margin: 5px auto 0;
+}
+
+@media (max-width: 768px){
+    .p-header{
+        margin-bottom: 20px;
+    }
+
+    .p-header h2{
+        font-size: 20px;
+    }
+
+    .p-header p{
+        font-size: 12px;
+        padding: 20px;
+    }
+}
