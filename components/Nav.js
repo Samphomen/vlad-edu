@@ -47,11 +47,11 @@ const Nav = () => {
         <button className='hamburger' onClick={handleMenuToggle}><BarsOutlined /></button>
         {toggleDropdown && (
           <div className='dropdown'>
-            <Link href='#about' onClick={handleMenuToggle} className='dropdown-list'>About us</Link>
-            <Link href='#services' onClick={handleMenuToggle} className='dropdown-list'>Services</Link>
-            <Link href='#partners' onClick={handleMenuToggle} className='dropdown-list'>Partners</Link>
+            <Link href='/#about' onClick={handleMenuToggle} className='dropdown-list'>About us</Link>
+            <Link href='/#services' onClick={handleMenuToggle} className='dropdown-list'>Services</Link>
+            <Link href='/#partners' onClick={handleMenuToggle} className='dropdown-list'>Partners</Link>
             <Link href='/blog' onClick={handleMenuToggle} className='dropdown-list'>Blog</Link>
-            <Link href='#testimonials' onClick={handleMenuToggle} className='dropdown-list'>Testimonials</Link>
+            <Link href='/#testimonials' onClick={handleMenuToggle} className='dropdown-list'>Testimonials</Link>
             <Link href="/contact" onClick={handleMenuToggle} passHref>
               <div className="navbar-button">
                 <div className="navbar-button-sign">➔</div>

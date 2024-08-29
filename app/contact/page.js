@@ -12,7 +12,8 @@ const services = [
     "Admission Documents Preparation",
     "Visa Support",
     "Career Orientation and Mentoring",
-    "Guardianship Services"
+    "Guardianship Services",
+    "Others"
   ];
 
 
@@ -47,7 +48,9 @@ const page = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between py-12 px-8">
         <div className="contact-header">
-            <h2><span>Have Questions?</span><br></br> contact us</h2>
+            <h4>At VLAD Education, we’re here to support you every step of the way on your educational journey. Whether you have questions about our services, need personalized advice, or want to discuss your options, our team is ready to assist.</h4>
+            <h4>Feel free to reach out to us via the contact form below, email, or phone. We look forward to connecting with you and helping you achieve your academic and career goal.</h4>
+            <h2>Contact Us</h2>
         </div>
         {state.succeeded ? (
             <div className='contactForm'>
@@ -125,6 +128,7 @@ const page = () => {
                         <option value="University Counselling">University Counselling</option>
                         <option value="Guardianship Services">Guardianship Services</option>
                         <option value="Document Preparation">Document Preparation</option>
+                        <option value="Others">Others</option>
                     </select>
                     </div>
                 </div>

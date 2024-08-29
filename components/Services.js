@@ -1,5 +1,5 @@
 
-
+import Link from 'next/link';
 import React from 'react'
 import "@/styles/services.css"
 import { serviceList } from './data';
@@ -21,10 +21,12 @@ const Services = () => {
                     ))
                 }
             </div>
-            <button className="test-button">
-                    <div className="test-button-sign">➔</div>
-                    <span className="test-button-text">Call to Action</span>
-            </button>
+            <Link href="/contact" passHref>
+                <button className="services-button">
+                        <div className="services-button-sign">➔</div>
+                        <span className="services-button-text">Book A Service</span>
+                </button>
+            </Link>
         </div>
     </div>
   )

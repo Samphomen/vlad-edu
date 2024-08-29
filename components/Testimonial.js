@@ -26,10 +26,10 @@ const Testimonial = () => {
                 ))
             }
         </div>
-        <button className="test-button">
+        {/* <button className="test-button">
             <div className="test-button-sign"><ArrowRightOutlined className='arrow' /></div>
             <span className="test-button-text">See More Reviews</span>
-        </button>
+        </button> */}
         <div className="test-bottom">
             <div className="card-image-2"><Image src={volo} /></div>
             <h4 className="tb-header"><span>Founder:</span> Volodymyr Naidiuk</h4>
