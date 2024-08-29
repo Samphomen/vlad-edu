@@ -24,15 +24,31 @@
 }
 
 .ps-box{
-    /* border: 1px solid red; */
-    flex: 1 1 calc(20% - 16px); /* 4 items per row, subtracting the gap */
-    max-width: calc(20% - 16px); /* Ensures items don't exceed 25% of the row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 calc(20% - 16px); 
+    max-width: calc(20% - 16px);
     box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 .ps-item{
-    margin: 5px auto 0;
+    max-width: 100%; /* Ensure logo fits within the container */
+     max-height: 70%; /* Adjust height to fit within the container */
+    object-fit: contain; /* Maintain aspect ratio */
 }
+
+.ps-box h5{
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
 
 @media (max-width: 768px){
     .p-header{
@@ -46,5 +62,10 @@
     .p-header p{
         font-size: 12px;
         padding: 20px;
+    }
+
+    .ps-box h5{
+        font-size: 8px;
+    
     }
 }

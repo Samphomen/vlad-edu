@@ -13,7 +13,7 @@ const Footer = () => {
         </button>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>&copy; 2024 Vlad Education. All rights reserved.</p>
         <div className="footer-icons">
           <span className="footer-icon"><FacebookFilled /></span>
           <span className="footer-icon"><TwitterCircleFilled /></span>

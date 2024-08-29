@@ -29,11 +29,11 @@ const Nav = () => {
       {/* Desktop Navigation */}
       <div className="nav-desktop">
         <ul className="navbar-links">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#partners">Partners</a></li>
+          <li><a href="/#about">About Us</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#partners">Partners</a></li>
           <li><a href="/blog">Blog</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="/#testimonials">Testimonials</a></li>
         </ul>
         <Link href="/contact" passHref>
               <div className="navbar-button">
@@ -52,7 +52,7 @@ const Nav = () => {
             <Link href='#partners' onClick={handleMenuToggle} className='dropdown-list'>Partners</Link>
             <Link href='/blog' onClick={handleMenuToggle} className='dropdown-list'>Blog</Link>
             <Link href='#testimonials' onClick={handleMenuToggle} className='dropdown-list'>Testimonials</Link>
-            <Link href="/contact" passHref>
+            <Link href="/contact" onClick={handleMenuToggle} passHref>
               <div className="navbar-button">
                 <div className="navbar-button-sign">➔</div>
                 <span className="navbar-button-text">Contact Us</span>

@@ -14,6 +14,7 @@ const Partner = () => {
                 schools.map((school) => (
                     <div className='ps-box' key={school.id}>
                         <Image src={school.logo} className='ps-item' />
+                        <h5>{school.name}</h5>
                     </div>
                 ))
             }

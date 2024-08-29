@@ -10,6 +10,7 @@
 
 .about-left{
     width: 25%;
+    margin-top: 30px;
 }
 
 .about-left h1{
@@ -23,9 +24,19 @@
     width: 60%;
     font-size: 18px;
     line-height: 24px;
-    margin: 80px 50px 50px 100px;
+    margin: 30px 50px 50px 100px;
     color: #667185;
 }
+
+.about-right-bottom{
+  margin-top: 40px;
+}
+
+.about-line{
+  border: 0.5px solid #667185;
+  margin: 10px 0;
+}
+
 
 .about-button {
     background-color: #000;
